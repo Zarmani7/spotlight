@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My personal Website</title>
+    <!--main css styleshet-->
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/main.css">
+    <!--stylesheet ends-->
+    <!---google fonts -->
+    <link rel="stylesheet"href="https://fonts.googleapis.com/css?family=Roboto+Mono&subset=cyrillic">
+    <!--google fonts ends-->
+    <!--fontawesome css link starts-->
+    <link rel="stylesheet" type="text/css" media="screen" href="Styles/all.css">
+    <!--font awesome css link ends-->
+    <!--font awesome scripts link-->
+    <script src="'https://kit.fontawesome.com/ec6a7cbbe5.js" crossorigin="anonymous'"></script>
+    <script src="scripts/all.js"></script>
+    <!--font awesome scripts ends-->
+    <!--jquery script-->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <!--jquery script ended-->
+</head>
+<body>
+    <!--Header section-->
+    <header id="h1">
+        <nav>
+            <div class="nav-container">
+                <img src="styles/img/lights2.png" alt="img">
+                <input type="checkbox" id="menu-toggle">
+                <label for="menu-toggle" onclick="doClick()" class="btn">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </label>
+            </div>
+            <div id="menu">
+                <ul>
+                    <li><a class="active" href="#h1">Home</a></li>
+                    <li><a href="#s1">Services</a></li>
+                    <li><a href="#p1">Projects</a></li>
+                    <li><a href="#a1">About</a></li>
+                    <li><a href="#c1">Contact</a></li>
+                    <li><a href="#f1">Book online</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="banner">
+            <div class="banner-center">
+                <img src="styles/img/Lights2.png" alt="img">
+                <h1>Company<span class="and">&amp</span>co</h1>
+                <h3>Car Shop For Fanatics</h3>
+                <div class="banner-icon">
+                    <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.pinterest.com" target="_blank"><i class="fab fa-pinterest-p"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--Header scction-->
+    <!--Services section-->
+    <section class="services" id="s1">
+        <div class="services-center">
+            <article class="service">
+                <div class="service-icon">
+                    <i class="fas fa-wrench"></i>
+                </div>
+                <div class="service-text">
+                    <h3>Excellent Report</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus, sapiente? Deserunt adipisci dolorem cupiditate, quo enim perferendis neque repellendus cum.
+                    </p>
+                </div>
+            </article>
+            <article class="service">
+                <div class="service-icon">
+                    <i class="fas fa-car"></i>
+                </div>
+                <div class="service-text">
+                    <h3>Newest cars</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus, sapiente? Deserunt adipisci dolorem cupiditate, quo enim perferendis neque repellendus cum.
+                    </p>
+                </div>
+            </article>
+            <article class="service">
+                <div class="service-icon">
+                    <i class="fas fa-space-shuttle"></i>
+                </div>
+                <div class="service-text">
+                    <h3>Striving for more</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus, sapiente? Deserunt adipisci dolorem cupiditate, quo enim perferendis neque repellendus cum.
+                    </p>
+                </div>
+            </article>
+        </div>
+    </section>
+    <!--Services section ends-->
+<!--projects section-->
+<section class="projects" id="p1">
+    <!--tittle-->
+    <div class="tittle">
+        <h2>Projects</h2>
+            <div class="tittle-underline"></div>
+    </div>
+    <!--tittle ends-->
+    <div class="projects-center">
+        <article class="project">
+            <img src="styles/img/Image11.jpg" alt="cars">
+        </article>
+        <article class="project">
+            <img src="styles/img/Image13.jpg" alt="cars">
+        </article>
+        <article class="project">
+            <img src="styles/img/image10.jpg" alt="cars">
+        </article>
+        <article class="project">
+            <img src="styles/img/image13.jpg" alt="cars">
+        </article>
+        <article class="project">
+            <img src="styles/img/image10.jpg" alt="cars">
+        </article>
+        <article class="project">
+            <img src="styles/img/image13.jpg" alt="cars">
+        </article>
+    </div>
+</section>
+<!--projects section ends-->
+<!--About section-->
+<section class="about" id="a1">
+    <article class="about-card">
+        <h3>About Us</h3>
+        <i class="fas fa-car"></i>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim aut consectetur atque. Quae corrupti, a cupiditate autem laudantium molestiae eligendi ad, reprehenderit quam dicta quis. Quisquam reiciendis numquam et optio.
+        </p>
+    </article>
+</section>
+<!--About section ends-->
+<!--Fillers section-->
+<section class="filler" id="f1"></section>
+<!--Fillers section ends-->
+<!--contact section-->
+<section class="contact" id="c1">
+    <article class="contact-card">
+        <form action="submit" method="get">
+            <h3>Contact us</h3>
+            <input type="text" id="name" placeholder="full name">
+            <input type="email" id="name" placeholder="example@email.com">
+            <textarea name="comment" placeholder="Leave your comment..." id="name" cols="30" rows="10"></textarea>
+            <button type="submit" class="form-btn">submit</button>
+        </form>
+    </article>
+</section>
+<!--contact section ends-->
+<!--footer section-->
+<div class="footer-icon">
+    <center>
+        <a href="https://www.instagram.com"target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.pinterest.com"target="_blank"><i class="fab fa-pinterest-p"></i></a>
+                    </center>
+                </div>
+                <p><center>Copyrights&copy;:ZarBestWebDevOpsEver.All rights reserved</center></p>
+<!--footer section ends-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.js">
+<!--slidetoogle scripts-->
+<script src="scripts/box.js"></script>
+<!--slide toggle scripts ends-->
+</body>
+</html>
